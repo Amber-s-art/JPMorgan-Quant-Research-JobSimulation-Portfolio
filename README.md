@@ -11,20 +11,20 @@ The simulation required acting as a quantitative researcher across multiple trad
 
 ## 🗂️ Project Portfolio
 
-### [1. Continuous-Time Commodity Forecasting](./Commodity-Price-Forecasting)
+### [1. Commodities Forecasting and Pricing Engine](./Commodities-Forecasting-and-Pricing)
 **Domain:** Global Commodities Group
-Developed a continuous-time forecasting model using Harmonic Regression to estimate natural gas prices for any given historical or future date. The model successfully captures complex, overlapping annual and semi-annual seasonal demand cycles using Fourier terms.
+An end-to-end quantitative trading tool for natural gas. It features a continuous-time Harmonic Regression model to forecast seasonal prices and a dynamic pricing algorithm that calculates the Net Present Value (NPV) of physical storage contracts while programmatically enforcing strict facility capacity constraints.
 
-### [2. Algorithmic Storage Contract Pricing](./Algorithmic-Contract-Pricing)
-**Domain:** Commodities Trading Desk
-Engineered a dynamic pricing prototype that calculates the Net Present Value (NPV) of physical natural gas storage contracts. The algorithm accounts for multiple cash flows (injection, withdrawal, transport, and storage rent) while programmatically enforcing strict physical capacity and flow-rate constraints.
-
-### [3. Retail Credit Risk & FICO Quantization](./Credit-Risk-Quantization)
+### [2. Retail Credit Risk Modeling](./Retail-Credit-Risk-Modeling)
 **Domain:** Retail Banking Risk
-Built a machine learning pipeline to estimate the Probability of Default (PD) on retail loans. Engineered a mathematically rigorous Dynamic Programming (DP) algorithm to "quantize" continuous FICO scores into optimal risk buckets by maximizing the Log-Likelihood of default density.
+A machine learning pipeline built to estimate the Probability of Default (PD) on retail loans. It features financial ratio engineering (DTI and PTI) and deploys a Logistic Regression model to accurately calculate the Expected Loss for capital reserve provisioning.
+
+### [3. FICO Score Quantization](./FICO-Score-Quantization)
+**Domain:** Mortgage Risk Analytics
+An advanced Dynamic Programming algorithm designed to "quantize" continuous FICO scores into optimal, discrete risk buckets. The model searches thousands of boundary combinations to find the exact breakpoints that mathematically maximize the Log-Likelihood of default density.
 
 ## 🛠️ Core Skills Demonstrated
 * **Mathematical Modeling:** Harmonic Regression, Dynamic Programming, Log-Likelihood Optimization.
-* **Financial Engineering:** Cash flow modeling, contract valuation, constraint processing.
-* **Data Science:** Feature engineering (DTI/PTI ratios), predictive modeling (Logistic Regression), time-series interpolation/extrapolation.
+* **Financial Engineering:** Cash flow modeling, contract valuation, constraint processing, Expected Loss (EL) calculations.
+* **Data Science:** Feature engineering (DTI/PTI ratios), predictive modeling (Logistic Regression), continuous-time series extrapolation.
 * **Programming:** Python (Pandas, NumPy, Scikit-learn, Statsmodels, Matplotlib).
